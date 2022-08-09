@@ -62,33 +62,3 @@ conda env list
 ```bash
 conda deactivate
 ```
-
----
-
-## Managing PySCF Installations
-
-Compiled versions of PySCF can be more efficient for highly computational demanded calculations and *should be preferred* over PIP/Conda installations.
-```
-Benchmarking procedure from PySCF Examples: Benzene Molecule
-
-model name : Intel (R) Xeon (R) Gold 6136 CPU@3.00 GHz
-MemTotal : 394662840 kB
-OMP_NUM_THREADS = 12
-```
-
-| <img src="pyscf_benchmark_images/3-21G.png" width="220"> | <img src="pyscf_benchmark_images/6-31Gss.png" width="220"> |
-| <img src="pyscf_benchmark_images/cc-pVTZ.png" width="220"> | <img src="pyscf_benchmark_images/ANO-Ross-TZ.png" width="220"> |
-|:--:|
-| *Computational Performance Benchmark of PySCF* |
-
-
-### Using _load_local_pyscf_2.0.1_ script to load compiled version of PySCF 2.0.1
-```bash
-source /home/cbc-sokolov-group/python-3.9-miniconda-4.12/load_local_pyscf_2.0.1
-```
-
-This script can also be added as a alias in the `~/.bashrc` file:
-```bash
-echo 'alias load_local_pyscf_2.0.1="source /home/cbc-sokolov-group/python-3.9-miniconda-4.12/load_local_pyscf_2.0.1"' >> ~/.bashrc
-source ~/.bashrc
-```
