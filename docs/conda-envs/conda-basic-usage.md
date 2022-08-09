@@ -66,7 +66,7 @@ conda deactivate
 ---
 
 ## Managing PySCF Installations
-### Using _load_local_pyscf_2.0.1_ script to load compiled version of PySCF 2.0.1 (*Recommended*)
+### Using _load_local_pyscf_2.0.1_ script to load compiled version of PySCF 2.0.1
 ```bash
 source /home/cbc-sokolov-group/python-3.9-miniconda-4.12/load_local_pyscf_2.0.1
 ```
@@ -77,7 +77,7 @@ echo 'alias load_local_pyscf_2.0.1="source /home/cbc-sokolov-group/python-3.9-mi
 source ~/.bashrc
 ```
 
-Compiled versions of PySCF can be more efficient for highly computational demanded calculations and should be preferred over PIP/Conda installations.
+Compiled versions of PySCF can be more efficient for highly computational demanded calculations and *should be preferred* over PIP/Conda installations.
 ```
 Benchmarking procedure from PySCF Examples: Benzene Molecule
 
