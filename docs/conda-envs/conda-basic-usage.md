@@ -37,6 +37,7 @@ An alias can be added to the `~/.bashrc` file:
 echo 'alias load_miniconda="source /home/cbc-sokolov-group/python-3.9-miniconda-4.12/load_miniconda"' >> ~/.bashrc
 source ~/.bashrc
 ```
+
 And the script can be executed in the command line by:
 ```bash
 load_miniconda
@@ -63,3 +64,15 @@ conda deactivate
 ```
 
 ---
+
+## Managing PySCF Installations
+### Using _load_local_pyscf_2.0.1_ script to load compiled version of PySCF 2.0.1 (*Recommended*)
+```bash
+source /home/cbc-sokolov-group/python-3.9-miniconda-4.12/load_local_pyscf_2.0.1
+```
+
+This script can also be added as a alias in the `~/.bashrc` file:
+```bash
+echo 'alias load_local_pyscf_2.0.1="source /home/cbc-sokolov-group/python-3.9-miniconda-4.12/load_local_pyscf_2.0.1"' >> ~/.bashrc
+source ~/.bashrc
+```
