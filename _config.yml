@@ -1,1 +1,15 @@
+# Title
+title: Sokolov Group Wiki
 remote_theme: just-the-docs/just-the-docs
+permalink: pretty
+
+
+# Set a path/url to a logo that will be displayed instead of the title
+logo: "sokolov_logo_color_transparent.png"
+
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+footer_content: "Copyright &copy; 2022 Sokolov Group.</a>"
