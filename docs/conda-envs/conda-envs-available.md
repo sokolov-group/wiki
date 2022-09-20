@@ -44,6 +44,7 @@ List of relevant packages included in each Conda Environment available at CBC Wo
 - matplotlib (3.5.1)
 - pandas (1.4.3)
 - pyberny (0.6.3)
+- basis_set_exchange (0.9)
 
 ---
 ## Computational Chemistry Packages
@@ -69,6 +70,7 @@ List of relevant packages included in each Conda Environment available at CBC Wo
 - line_profiler (3.3.1)
 - memory_profiler (0.58.0)
 - pyberny (0.6.3)
+- basis_set_exchange (0.9)
 
 ### psi4-1.6.1
 - python (3.9.12)
