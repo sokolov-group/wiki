@@ -37,6 +37,18 @@ export OMP_NUM_THREADS=8
 export MKL_NUM_THREADS=8
 ```
 
+### Using _load_local_pyscf_2.1.1_ script
+A compiled version of PySCF 2.1.1 is available at `cbc-sokolov-group/python-packages/pyscf-2.1.1/` folder. It can be easily loaded using the `load_local_pyscf_2.1.1` script:
+```bash
+source /home/cbc-sokolov-group/python-3.9-miniconda-4.12/load_local_pyscf_2.1.1
+```
+
+This script can also be added as a alias in the `~/.bashrc` file:
+```bash
+echo 'alias load_local_pyscf_2.1.1="source /home/cbc-sokolov-group/python-3.9-miniconda-4.12/load_local_pyscf_2.1.1"' >> ~/.bashrc
+source ~/.bashrc
+```
+
 ### Using _load_local_pyscf_2.0.1_ script
 A compiled version of PySCF 2.0.1 is available at `cbc-sokolov-group/python-packages/pyscf-2.0.1/` folder. It can be easily loaded using the `load_local_pyscf_2.0.1` script:
 ```bash
