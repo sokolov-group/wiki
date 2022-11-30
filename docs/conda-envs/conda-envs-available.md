@@ -99,6 +99,7 @@ List of relevant packages included in each Conda Environment available at CBC Wo
 ### adcc-0.15.14
 - python (3.9.12)
 - **adcc** (0.15.14)
+- **pyscf** (2.0.1)
 - numpy (1.22.3)
 - scipy (1.7.3)
 - intel-openmp (2021.4.0)
