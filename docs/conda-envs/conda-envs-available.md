@@ -88,6 +88,20 @@ List of relevant packages included in each Conda Environment available at CBC Wo
 - pyberny (0.6.3)
 - basis_set_exchange (0.9)
 
+### pyscf-2.2.1
+- python (3.9.16)
+- **pyscf** (2.2.1)
+- numpy (1.23.5)
+- scipy (1.10.0)
+- intel-openmp (2023.0.0)
+- mkl (2023.0.0)
+- opt_einsum (3.3.0)
+- h5py (3.7.0)
+- line_profiler (3.3.1)
+- memory_profiler (0.58.0)
+- pyberny (0.6.3)
+- basis_set_exchange (0.9)
+
 ### psi4-1.6.1
 - python (3.9.12)
 - **psi4** (1.6.1+5b9f6e3)
