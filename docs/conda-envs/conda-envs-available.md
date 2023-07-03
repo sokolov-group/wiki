@@ -87,6 +87,7 @@ List of relevant packages included in each Conda Environment available at CBC Wo
 - memory_profiler (0.60.0)
 - pyberny (0.6.3)
 - basis_set_exchange (0.9)
+- cppe (0.3.1)
 
 ### pyscf-2.2.1
 - python (3.9.16)
