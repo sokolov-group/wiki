@@ -48,8 +48,7 @@ To install an especific version `$package-version-num` of the Python package:
 python -m pip install $python-package=$package-version-num
 ```
 
-## Recommendations on using the Conda system:
-
+## Recommendations on using the Conda system
 1. python-X.X.X environments should contain only the most important python packages (numpy, scipy, h5py, etc)
 2. Always load conda with the load_miniconda script:
 ```bash
