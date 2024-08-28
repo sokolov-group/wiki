@@ -48,6 +48,23 @@ To install an especific version `$package-version-num` of the Python package:
 python -m pip install $python-package=$package-version-num
 ```
 
+## Recommendations on using the Conda system:
+
+1. python-X.X.X environments should contain only the most important python packages (numpy, scipy, h5py, etc)
+2. Always load conda with the load_miniconda script:
+```bash
+echo 'alias load_miniconda="source /home/cbc-sokolov-group/python-3.9-miniconda-4.12/load_miniconda"' >> ~/.bashrc
+source ~/.bashrc
+```
+3. Before switching between two environments, always run `conda deactivate` first to deactivate the current environment, then activate the new one
+4. Please do not install anything in the base conda environment
+5. Please do not install a python module with pip if it is available for installation (or already installed) in the conda environment itself
+6. If a pip installation is requesting to install new packages, interrupt the installation, check if these packages are available in the conda environment, and (if available) install with conda, then restart the pip installation
+7. Simply put, try to avoid using pip in a conda environment as much as possible. Conda is smarter and safer than pip
+8. Please do not install psi4, pyscf or other important comp chem packages in the python-X.X.X environments. Those should be installed in the dedicated environments (e.g., pyscf-X.X, psi4-X.X)
+9. Conda has a way to install custom personal environments, you can do that if you need one that is tailored for your needs. Pip also allows to install packages locally for a specific user
+10. If you need a new package to be installed but don’t know how to do it properly, please consult with a more senior member of the group
+
 ## Example: Installation Procedure for PySCF 2.0.1 via Conda
 ```bash
 # Create the Conda environment 'pyscf-2.0.1'
